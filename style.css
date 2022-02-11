@@ -192,3 +192,13 @@ a {
     font-size:17px;
     font-weight: 700;
 }
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 15px;
+}
