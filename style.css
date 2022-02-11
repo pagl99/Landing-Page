@@ -152,3 +152,43 @@ a {
     font-size: 36px;
     font-weight: bold;
 }
+
+/* Section 3 */ 
+
+.section-4 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:roboto;
+}
+
+.call-to-action-container {
+    width: 1000px;
+    height: 130px;
+    margin: 100px;
+    background-color: #3882f6;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    font-family: roboto;
+    color:white;
+    font-size:17px;
+}
+
+.call-to-action-header {
+    font-weight: 800;
+}
+
+.sign-up-button {
+    height: 35px;
+    width: 120px;
+    border-radius:10px;
+    background-color: #3882f6;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    font-family:roboto;
+    font-size:17px;
+    font-weight: 700;
+}
