@@ -17,6 +17,7 @@ a {
     color: #e5e7eb;
 }
 
+/* Section 1 */ 
 .section-1 {
     background-color: #1f2937;
     
@@ -24,7 +25,7 @@ a {
 
 .header-links {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header {
@@ -45,7 +46,13 @@ a {
     justify-content:center;
     align-items: center;
     padding: 100px;
-    
+    gap:50px;
+}
+
+
+.sign-up-info {
+    display:flex;
+    max-width:500px;
 }
 
 .hero-text {
@@ -62,17 +69,6 @@ a {
     color: #e5e7eb;
 }
 
-.sign-up-info {
-    display:flex;
-    max-width:400px;
-}
-
-.image {
-    display:flex;
-    width:600px;
-    height: 300px;
-}
-
 .sign-up {
     background-color: #3882f6;
     border-radius: 15px;
@@ -82,3 +78,52 @@ a {
     margin: 5px 0px;
     color: white;
 }
+
+.image {
+    display:flex;
+    width:600px;
+    height: 300px;
+}
+
+/* Section 2 */ 
+.section-2 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    font-family: Roboto
+}
+
+.title {
+    display:flex;
+    padding:25px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.information-container{
+    display:flex;
+    margin:30px;
+    gap: 50px;
+    padding-bottom:50px;
+}
+
+.information-container .information {
+    font-size: 15px;
+    color: black;
+    max-width: 150px;
+    text-align: center;
+}
+
+.information img {
+    width: 150px;
+    height: 150px;
+    border: solid cadetblue 2px;
+    border-radius: 15px;
+}
+
+/* Section 3 */ 
+
+
+
+
